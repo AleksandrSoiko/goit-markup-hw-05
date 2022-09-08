@@ -49,7 +49,6 @@
   height: auto;
 }
 
-
 /* =============== utilities ============= */
 h1,
 h2,
@@ -75,12 +74,8 @@ ul {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  
-  transition-property: color, border-color;
-  transition-duration: 250ms, 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
-}
 
+}
 .link:active {
   color: orange;
 }
@@ -412,7 +407,7 @@ ul {
 .client-link {
   display: inline-flex;
   width: 170px;
- height: 92px;
+  height: 92px;
   border: 1px solid var(--social-color);
   border-radius: 4px;
   color: var(--social-color);
