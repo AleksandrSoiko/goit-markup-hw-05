@@ -72,7 +72,7 @@
               Ефективні рішення для вашого бізнесу
             </h1>
           </div>
-          <button class="btn" type="button">Замовити послугу</button>
+          <button class="btn" type="button" data-modal-open >Замовити послугу</button>
         </div>
       </section>
 
@@ -619,5 +619,20 @@
         </div>
       </div>
     </footer>
+
+    <!-- modal window -->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+          <svg class="modal-icon" width="18" height="18">
+            <use href="./images/symbol-defs.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+
   </body>
 </html>
