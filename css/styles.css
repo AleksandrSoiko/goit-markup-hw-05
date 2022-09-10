@@ -229,6 +229,7 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  letter-spacing: 0.06em;
 }
 .section-hero .btn {
   display: block;
