@@ -94,7 +94,7 @@ ul {
 .link-current::after {
   position: absolute;
   left: 0;
-  bottom: -3.5%;
+  bottom: -1%;
 
   content: "";
   display: inline-block;
